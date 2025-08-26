@@ -1705,7 +1705,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding: 3% 6%;
     max-width: 700px;
     color: white;
-    margin: 0 auto;
+    margin: 0 -5;
 }
 span.spce {
     margin: 0 3%;
