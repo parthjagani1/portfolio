@@ -1702,13 +1702,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: center;
     border: 1px solid var(--orange-yellow-crayola);
     border-radius: 15px;
-    padding: 20px 220px;
+    padding: 3% 6%;
     max-width: 700px;
     color: white;
     margin: 0 auto;
 }
 span.spce {
-    margin: 0 20%;
+    margin: 0 3%;
 }
 .contact-item1 {
   display: flex;
