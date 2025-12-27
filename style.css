@@ -1,7 +1,4 @@
-
 :root {
-
-
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
     hsl(240, 1%, 25%) 3%,
@@ -33,7 +30,6 @@
     hsl(35, 100%, 68%)
   );
 
-
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
@@ -47,12 +43,8 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-
-
-  /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
 
-  /* font-size */
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -62,15 +54,10 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
-
-  /**
-   * shadow
-   */
 
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -78,30 +65,17 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
-
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
-
 }
-
-
-
-.project-item.active {
-    margin: 7px 0;
-}
-
 
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
-h2{
-  color: white;
-}
+
 a { text-decoration: none; }
 
 li { list-style: none; }
@@ -133,11 +107,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-
-
-
 
 .sidebar,
 article {
@@ -230,8 +199,8 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  width: 5px;
+  height: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -266,19 +235,11 @@ article.active {
   z-index: -1;
 }
 
-
-
-
-
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
 
 .sidebar {
   margin-bottom: 15px;
@@ -409,12 +370,7 @@ main {
   font-size: 18px;
 }
 
-
 .social-item .social-link:hover { color: var(--light-gray); }
-
-
-
-
 
 .navbar {
   position: fixed;
@@ -449,11 +405,6 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-
-
-
-
-
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
@@ -464,9 +415,6 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
-
-
-
 
 .service { margin-bottom: 35px; }
 
@@ -510,8 +458,6 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
-
 
 .testimonials { margin-bottom: 30px; }
 
@@ -559,9 +505,6 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-
-
 
 .modal-container {
   position: fixed;
@@ -672,11 +615,6 @@ main {
   line-height: 1.6;
 }
 
-
-/**
- * #clients
- */
-
 .clients { margin-bottom: 15px; }
 
 .clients-list {
@@ -707,15 +645,7 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
-
-
 .article-title { margin-bottom: 30px; }
-
-
 
 .timeline { margin-bottom: 30px; }
 
@@ -775,11 +705,9 @@ main {
   line-height: 1.6;
 }
 
-
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
-
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
@@ -808,9 +736,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
 
 .filter-list { display: none; }
 
@@ -963,14 +888,6 @@ main {
   font-weight: var(--fw-300);
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
 .blog-posts { margin-bottom: 10px; }
 
 .blog-posts-list {
@@ -1050,11 +967,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
-
-
-
 
 .mapbox {
   position: relative;
@@ -1155,30 +1067,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
-
-
-
 @media (min-width: 450px) {
-
-
   .clients-item { min-width: calc(33.33% - 10px); }
-
 
   .project-img,
   .blog-banner-box { height: auto; }
-
 }
-
-
-
 
 @media (min-width: 580px) {
 
-
   :root {
-
-
     --fs-1: 32px;
     --fs-2: 24px;
     --fs-3: 26px;
@@ -1186,11 +1084,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-6: 15px;
     --fs-7: 15px;
     --fs-8: 12px;
-
   }
-
-
-
 
   .sidebar, article {
     width: 520px;
@@ -1215,15 +1109,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 18px;
   }
 
-
-
-
   main {
     margin-top: 60px;
     margin-bottom: 100px;
   }
-
-
 
   .sidebar {
     max-height: 180px;
@@ -1264,20 +1153,15 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: calc(100% - 64px);
   }
 
-
-
   .navbar { border-radius: 20px 20px 0 0; }
 
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
 
-
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
-
-
 
   .service-item {
     display: flex;
@@ -1293,7 +1177,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .service-content-box { text-align: left; }
-
 
   .testimonials-title { margin-bottom: 25px; }
 
@@ -1326,7 +1209,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     -webkit-line-clamp: 2;
   }
 
-
   .modal-container { padding: 20px; }
 
   .testimonials-modal {
@@ -1357,8 +1239,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 35px;
   }
 
-
-
   .clients-list {
     gap: 50px;
     margin: 0 -30px;
@@ -1367,8 +1247,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .clients-item { min-width: calc(33.33% - 35px); }
-
-
 
   .timeline-list { margin-left: 65px; }
 
@@ -1382,15 +1260,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
-
-
   .project-img, .blog-banner-box { border-radius: 16px; }
 
   .blog-posts-list { gap: 30px; }
 
   .blog-content { padding: 25px; }
-
-
 
   .mapbox {
     height: 380px;
@@ -1412,37 +1286,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .form-btn ion-icon { font-size: 18px; }
-
 }
 
-
-
-
-
-
 @media (min-width: 768px) {
-
 
   .sidebar, article { width: 700px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
-
-
-
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
 
-
-
-
   .navbar-link { --fs-8: 15px; }
-
-
-
-
 
   .testimonials-modal {
     gap: 35px;
@@ -1450,8 +1307,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .modal-avatar-box img { width: 80px; }
-
-
 
   .article-title { padding-bottom: 20px; }
 
@@ -1476,11 +1331,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
-
-
-
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
@@ -1488,38 +1339,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
-
 }
-
-
-
-
 
 @media (min-width: 1024px) {
 
-
-
   :root {
-
-
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
-
   }
-
-
-
-
 
   .sidebar, article {
     width: 950px;
     box-shadow: var(--shadow-5);
   }
-
-
-
-
 
   main { margin-bottom: 60px; }
 
@@ -1528,8 +1361,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin: auto;
   }
-
-
 
   .navbar {
     position: absolute;
@@ -1550,37 +1381,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar-link { font-weight: var(--fw-500); }
 
-
-
-
-
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-
   .testimonials-item { min-width: calc(50% - 15px); }
 
   .clients-item { min-width: calc(25% - 38px); }
 
-
-
-
   .project-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
   .blog-banner-box { height: 230px; }
-
 }
 
-
-
-
-
 @media (min-width: 1250px) {
-
 
   body::-webkit-scrollbar { width: 20px; }
 
@@ -1598,13 +1413,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar-button { height: 60px; }
 
-
-
   .sidebar, article { width: auto; }
 
   article { min-height: 100%; }
-
-
 
   main {
     max-width: 1200px;
@@ -1620,8 +1431,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 75%;
     margin: 0;
   }
-
-
 
   .sidebar {
     position: sticky;
@@ -1671,17 +1480,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-
-
-
-
   .timeline-text { max-width: 700px; }
-
-}
 
 .contact-section {
   text-align: center;
-  margin: 40px 0;
+  margin: 160px 0;
   font-family: Arial, sans-serif;
 }
 
@@ -1756,4 +1559,5 @@ span.spce {
   .contact-section .sub-title {
     font-size: 1rem;
   }
+}
 }
