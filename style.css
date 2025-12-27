@@ -1548,7 +1548,18 @@ span.spce {
   .contact-section .contact-item1 {
     width: 100%;
     justify-content: flex-start;
+    text-align: center;
     font-size: 1rem;
+  }
+  .contact-box {
+    border: 0.1px solid  lightgray;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  a{
+    color: #d6d6d6;
+    display: flex;
+    gap: 10px;
   }
   .contact-section .spce {
     display: none;
