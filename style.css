@@ -1367,8 +1367,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     justify-content: space-evenly;
   }
   a{
-    display: flex;
-    gap: 15px;
+    display: block;
+    /* gap: 15px; */
   }
   .contact-section{
     text-align: center;
@@ -1387,8 +1387,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     justify-content: space-evenly;
   }
   a{
-    display: flex;
-    gap: 15px;
+    display: block;
+    /* gap: 15px; */
   }
   .contact-section{
     text-align: center;
@@ -1640,8 +1640,8 @@ span.spce {
     justify-content: space-evenly;
   }
   a{
-    display: flex;
-    gap: 5px;
+    display: block;
+    /* gap: 5px; */
   }
   .contact-section{
     text-align: center;
@@ -1676,8 +1676,9 @@ span.spce {
     justify-content: space-evenly;
   }
   a{
-    display: flex;
-    gap: 2px;
+    display: block;
+    /* gap: 2px; */
+    
   }
   .contact-section{
     text-align: center;
